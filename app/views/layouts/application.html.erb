@@ -12,11 +12,13 @@
     
     <%= render "shared/navbar" %>
     
-    <div class="container">
-      <%= flash_messages %>
-      
-      <%= yield %>
+    <%= render partial: "shared/flash_messages", flash: flash %> 
+    <div class="flash">
+      <%# flash_messages %>
     </div>
+    
+    <%= yield %>
+
     
   </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>gems for noobs</title>
+    <title>Gems For Noobs</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -14,8 +14,10 @@
     
     <%= render "shared/flash_messages.html.erb" %>
     
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    
+    <%= render "shared/footer" %>
   </body>
 </html>

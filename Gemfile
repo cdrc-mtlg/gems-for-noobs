@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '4.2.0'
 gem 'devise-bootstrap-views', '0.0.9'
 gem 'pundit'
+gem 'font-awesome-sass', '~> 4.7.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

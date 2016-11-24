@@ -19,8 +19,10 @@
           <% end %>
         </div>
       <% end %>
-      <%= f.submit  t('.sign_in', :default => "Sign in"), class: "btn btn-primary" %>
+        <%= f.submit  t('.sign_in', :default => "Sign in"), class: "btn btn-block btn-primary" %>
     <% end %>
+      <%= render "devise/shared/social" %>
   </div>
+
 </div>
 <%= render "devise/shared/links" %>

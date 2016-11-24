@@ -4,24 +4,25 @@
       -OR-
     </div>
   <br>
-  <a class="btn btn-block btn-default btn-social twitter">
-    <div class="row">
+  
+  <%= link_to user_facebook_omniauth_authorize_path, :class => "btn btn-block btn-default btn-social facebook" do %>
+     <div class="row">
       <div class="col-md-5 text-right">
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
       </div>
       <div class="text-left">
-        Sign in with Twitter
+        Sign in with Facebook
       </div>
     </div>
-  </a>
+  <% end %>
   
-  <a class="btn btn-block btn-default btn-social facebook">
+  <a class="btn btn-block btn-default btn-social twitter">
     <div class="row">
        <div class="col-md-5 text-right">
-         <i class="fa fa-facebook" aria-hidden="true"></i>
+         <i class="fa fa-twitter" aria-hidden="true"></i>
       </div>
         <div class="text-left">
-          Sign in with Facebook
+          Sign in with Twitter
         </div>
     </div>
   </a>
